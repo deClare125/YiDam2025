@@ -5,6 +5,8 @@ body {
 .ww-home-page {
   background: url("../images/home-img.jpg") no-repeat center center;
   background-size: cover;
+  object-fit: contain;
+  max-width:100% ;
   background-position: 70%;
   height: 100vh;
   min-height: 480px;
@@ -125,32 +127,9 @@ body {
   background: url("../images/rsvp-img.jpg") no-repeat center center;
   background-size: cover;
   min-height: 500px;
+  object-fit: contain;
+  max-width:100% ;
   position: relative; }
-  .ww-rsvp-detail .ww-rsvp-form {
-    padding-left: 20%; }
-    @media (max-width: 768px) {
-      .ww-rsvp-detail .ww-rsvp-form {
-        padding-left: 10%; } }
-    @media (max-width: 576px) {
-      .ww-rsvp-detail .ww-rsvp-form {
-        padding-left: 0%; } }
-    .ww-rsvp-detail .ww-rsvp-form .form-control {
-      background-color: rgba(222, 222, 222, 0.2);
-      color: #fff;
-      border: 1px solid rgba(255, 255, 255, 0.6); }
-    .ww-rsvp-detail .ww-rsvp-form .form-control::-moz-placeholder {
-      color: #dedede; }
-    .ww-rsvp-detail .ww-rsvp-form .form-control:-ms-input-placeholder {
-      color: #dedede; }
-    .ww-rsvp-detail .ww-rsvp-form .form-control::placeholder {
-      color: #dedede; }
-    .ww-rsvp-detail .ww-rsvp-form select.form-control option {
-      background: rgba(0, 0, 0, 0.3);
-      color: #fff; }
-    .ww-rsvp-detail .ww-rsvp-form .btn-submit {
-      background-color: rgba(245, 138, 119, 0.8);
-      padding: 0.45rem 1.5rem;
-      border: 0; }
 
 .ww-rsvp-detail:before {
   content: "";
@@ -188,11 +167,14 @@ body {
     height: 0;
     overflow: hidden;
 }
-
 .responsive-iframe-container iframe {
-    position: absolute;
+	position: absolute;
     top: 0;
-    left: 0;
-    width: 100%;
+	left: 0;
+	bottom: 0;
+	right: 0;
+    width: 65%;
+	 margin: auto;
     height: 100%;
 }
+
