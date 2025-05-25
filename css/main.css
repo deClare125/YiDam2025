@@ -1,5 +1,6 @@
 body {
-  font-family: "Dosis", sans-serif; }
+  font-family: "Dosis", sans-serif;
+}
 
 /* Home Page Style */
 .ww-home-page {
@@ -7,10 +8,11 @@ body {
   background-size: cover;
   background-position: 50%;
   object-fit: contain;
-  max-width:100%;
+  max-width: 100%;
   height: 100vh;
   min-height: 48vh;
-  max-height: 108vh; }
+  max-height: 108vh;
+}
 
 .ww-home-page:before {
   content: "";
@@ -22,18 +24,21 @@ body {
   max-height: 108vh;
   position: absolute;
   left: 0;
-  top: 0; }
+  top: 0;
+}
 
 /* Nav Bar Style */
 .ww-nav-bar .nav-item {
   font-size: 18px;
   padding: 5px 0 5px 16px;
-  font-weight: 500; }
+  font-weight: 500;
+}
 
 /* Wedding Event Style */
 .ww-wedding-event ul {
   list-style: none;
-  padding-left: 0; }
+  padding-left: 0;
+}
 
 /* Photo Gallery Style */
 .ww-photo-gallery .ww-category-filter a {
@@ -42,25 +47,32 @@ body {
   font-size: 14px;
   text-transform: uppercase;
   letter-spacing: 1px;
-  border-radius: 3px; }
+  border-radius: 3px;
+}
 
 .ww-photo-gallery .ww-gallery {
-  min-height: 500px; }
+  min-height: 500px;
+}
 
 .ww-photo-gallery .card-columns .card {
   border: none;
   margin-bottom: 15px;
-  border-radius: none; }
+  border-radius: none;
+}
 
 @media (max-width: 992px) {
   .ww-photo-gallery .card-columns {
     -moz-column-count: 2;
-         column-count: 2; } }
+    column-count: 2;
+  }
+}
 
 @media (max-width: 576px) {
   .ww-photo-gallery .card-columns {
     -moz-column-count: 1;
-         column-count: 1; } }
+    column-count: 1;
+  }
+}
 
 /* RSVP Style */
 .ww-rsvp-detail {
@@ -68,8 +80,9 @@ body {
   background-size: cover;
   min-height: 500px;
   object-fit: contain;
-  max-width:100% ;
-  position: relative; }
+  max-width: 100%;
+  position: relative;
+}
 
 .ww-rsvp-detail:before {
   content: "";
@@ -78,24 +91,25 @@ body {
   height: 100%;
   position: absolute;
   left: 0;
-  top: 0; }
-  
+  top: 0;
+}
+
 /* Google form Style*/
 .responsive-iframe-container {
-    position: relative;
-    padding-bottom: 135%;  /* Adjust based on your form's height */
-    height: 0;
-    overflow: hidden;
+  position: relative;
+  padding-bottom: 135%; /* Adjust based on your form's height */
+  height: 0;
+  overflow: hidden;
 }
 .responsive-iframe-container iframe {
-	position: absolute;
-    top: 0;
-	left: 0;
-	bottom: 0;
-	right: 0;
-    width: 65%;
-	margin: auto;
-    height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 65%;
+  margin: auto;
+  height: 100%;
 }
 
 /* Footer Style */
@@ -103,20 +117,23 @@ body {
   color: inherit;
   border-bottom: 1px dashed;
   text-decoration: none;
-  cursor: pointer; }
+  cursor: pointer;
+}
 
 /* Common Style */
 .ww-title {
-  font-family: "Great Vibes", cursive; }
+  font-family: "Great Vibes", cursive;
+}
 
 .ww-section {
-  padding: 100px 0; }
+  padding: 100px 0;
+  font-family: serif;
+}
 
 .btn-primary {
-  color: #fff; }
+  color: #fff;
+}
 
 .btn-outline-primary:hover {
-  color: #fff; }
-
-
-
+  color: #fff;
+}
