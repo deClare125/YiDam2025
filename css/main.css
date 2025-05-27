@@ -29,8 +29,9 @@ body {
       flex-basis: auto;
       max-width: 6000px;
       text-align: left;
+      margin-top: 2vmin;
       margin-bottom: 15vmin;
-      margin-left: 50px;
+      margin-left: 2vmax;
       z-index: 999; }
     .ww-home-page .ww-wedding-announcement .ww-couple-name {
       flex-grow: 1;
@@ -157,7 +158,7 @@ body {
 
 /* Common Style */
 .ww-title {
-  font-family: "Great Vibes",cursive;
+  font-family: "Felipa",cursive;
 }
 
 .ww-section {
