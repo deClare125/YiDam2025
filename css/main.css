@@ -39,7 +39,8 @@ body {
       flex-basis: auto;
       font-family: "Kapakana", cursive;
       position:relative;
-      font-size: 10vmax; }
+      text-align: center;
+      font-size: 10vw; }
       .ww-home-page .ww-wedding-announcement .ww-home-details {
         flex-grow: 1;
         flex-shrink: 1;
