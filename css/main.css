@@ -52,7 +52,7 @@ body {
       flex-basis: auto;
       font-family: "Kapakana", cursive;
       position:relative;
-      text-align: center;
+      text-align: left;
       font-size: 10.5vmax; }
       .ww-home-page .ww-wedding-announcement .ww-home-invite {
         flex-grow: 1;
