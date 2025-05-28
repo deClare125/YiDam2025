@@ -2,6 +2,10 @@ body {
   font-family:"Cormorant",serif;
 }
 
+a {
+  color: rgb(32, 113, 30);
+}
+
 /* Larger screens */
 @media (min-width: 992px) {
   body {
