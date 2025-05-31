@@ -23,7 +23,7 @@ a {
 
 /* Home Page Style */
 .ww-home-page {
-  background: url("../images/home-img.jpeg") no-repeat center center;
+  background: url("../images/homeimg.jpg") no-repeat center center;
   background-size: cover;
   background-position: right 37% bottom 75%;;
   object-fit: contain;
